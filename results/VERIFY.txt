@@ -1,0 +1,17 @@
+# drat-trim verification on bears-pc (Linux VM), 2026-11-26 00:28 UTC
+drat-trim commit: 2e3b2dc0ecf938addbd779d42877b6ed69d9a985
+python-sat: 1.9.dev25
+465222a4b964655a54ef22f37833719a2dcea5e38ff300c829838c667c490451  l5p20.cnf
+af17f0ac7c95b2ed132afadf2b7ddbccc95bc390609a812831ecb3eb5f3b8d53  l5p36.cnf
+--- dt20.log
+c 20040 of 31551 clauses in core                            
+c 208691 of 731977 lemmas in core using 11248669 resolution steps
+c 0 RAT lemmas in core; 177748 redundant literals in core lemmas
+s VERIFIED
+c verification time: 22.346 seconds
+--- dt36.log
+c 23452 of 56975 clauses in core                            
+c 223344 of 753052 lemmas in core using 15023397 resolution steps
+c 0 RAT lemmas in core; 207725 redundant literals in core lemmas
+s VERIFIED
+c verification time: 25.310 seconds
