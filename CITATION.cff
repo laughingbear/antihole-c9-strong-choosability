@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this result or code, please cite it as below."
+title: "complement(C9) is strongly 5-chromatic-choosable: a computer-assisted proof"
+authors:
+  - name: "Laughing Bear"
+date-released: 2026-11-26
+license: MIT
+abstract: >-
+  SAT-based, drat-trim-verified proof that every 4-list assignment of the odd antihole
+  complement(C9) admits a proper colouring unless all lists are identical (Conjecture 9,
+  case l=5, of Fiujlaali and McDonald, arXiv:2610.14241), settling their Conjecture 3
+  whenever Delta = k + 1.
+references:
+  - type: article
+    title: "Restricting odd antiholes in critical graphs via list coloring"
+    authors:
+      - family-names: Fiujlaali
+        given-names: Alireza
+      - family-names: McDonald
+        given-names: Jessica
+    identifiers:
+      - type: other
+        value: "arXiv:2610.14241"
+    year: 2026
